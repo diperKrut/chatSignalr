@@ -1,0 +1,133 @@
+.scroll::-webkit-scrollbar, .massagesChat::-webkit-scrollbar, .UserList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb, .massagesChat::-webkit-scrollbar-thumb, .UserList::-webkit-scrollbar-thumb {
+  border-width: 1px 1px 1px 2px;
+  border-color: #777;
+  background-color: #565B60;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover, .massagesChat::-webkit-scrollbar-thumb:hover, .UserList::-webkit-scrollbar-thumb:hover {
+  border-width: 1px 1px 1px 2px;
+  border-color: #555;
+  background-color: #565B60;
+}
+
+.scroll::-webkit-scrollbar-track, .massagesChat::-webkit-scrollbar-track, .UserList::-webkit-scrollbar-track {
+  border-width: 0;
+}
+
+.scroll::-webkit-scrollbar-track:hover, .massagesChat::-webkit-scrollbar-track:hover, .UserList::-webkit-scrollbar-track:hover {
+  background-color: #2E343C;
+}
+
+.massagesChat {
+  width: 80%;
+  height: 93vh;
+  margin-bottom: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.btn {
+  outline: none;
+  margin-left: 3px;
+  width: 9%;
+  border: 1px solid black;
+  background: #626363;
+  height: 5vh;
+  border-radius: 4px;
+  color: white;
+}
+
+.massage, .massageActivity {
+  margin-top: 10px;
+  background: #182533;
+  border-radius: 20px;
+  color: white;
+  margin-left: 10px;
+  clear: both;
+  width: 40%;
+  padding: 10px 15px 10px 20px;
+}
+
+.massage:hover .option, .massageActivity:hover .option {
+  display: block;
+}
+
+.massage b, .massageActivity b {
+  font-size: 12px;
+}
+
+.massageActivity {
+  margin-right: 10px;
+  background: #2B5278;
+  float: right;
+}
+
+.UserList {
+  width: 20%;
+  float: left;
+  background: #17212B;
+  height: 103vh;
+  color: white;
+  border-right: 0.02px solid black;
+  overflow: scroll;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.Line, .online, .offline {
+  font-size: 65px;
+  vertical-align: middle;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.user {
+  overflow-x: hidden;
+}
+
+.user hr {
+  margin: 0;
+  padding: 0;
+  background: #232E3C;
+}
+
+input[type="text"] {
+  margin-top: -7px;
+  outline: none;
+  background: #17212B;
+  color: white;
+  border: none;
+  width: 80%;
+  height: 7vh;
+  font-size: 20px;
+}
+
+.option {
+  float: right;
+  display: none;
+}
+
+.errorList {
+  border: 1px solid red;
+  border-radius: 4px;
+  font-size: 18px;
+  color: red;
+}

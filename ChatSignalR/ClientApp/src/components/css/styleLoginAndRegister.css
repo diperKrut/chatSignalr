@@ -1,0 +1,95 @@
+.signUp{
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	background: #425059;
+	text-align: center;
+	font-size: 20px;
+	color:#6A7F8E;
+}
+
+.signIn{
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	background: #425059;
+	text-align: center;
+	font-size: 20px;
+	color:#6A7F8E;
+}
+
+
+.dispInline{
+	display: inline-block;
+	font-size: 0;
+}
+
+
+.activity{
+	background: #1AB188;
+	color: white;
+}
+
+
+.form{
+	width: 650px;
+	margin: 20vh auto;
+	background: #23313B;
+}
+
+.form input[type="text"]{
+	margin-top: 30px;
+	position: relative;
+	outline: none;
+	border: 2px solid #5D6E72;
+	width: 500px;
+	height: 30px;
+	color: #6A7F8E;
+	background: #23313B;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+
+.form input[type="password"]{
+	box-sizing: border-box;
+	margin-top: 30px;
+	position: relative;
+	outline: none;
+	border: 2px solid #5D6E72;
+	width: 500px;
+	height: 30px;
+	color: #6A7F8E;
+	background: #23313B;
+	font-size: 20px
+}
+
+.comp{
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px 50px;
+}
+
+
+.button{
+	margin-top: 30px;
+	width:500px;
+	background: #1AB188;
+	color: white;
+	outline: none;
+	height: 50px;
+	text-decoration-line: none;
+	border: none;
+	font-size: 20px;
+}
+
+.form a{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	background: #0E1621;
+}
